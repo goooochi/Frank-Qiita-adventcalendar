@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         
         float horizotalValue = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        transform.position += this.transform.forward * vertical * 0.3f + this.transform.right * horizotalValue * 0.3f;
+        transform.position += this.transform.forward * vertical * 0.1f + this.transform.right * horizotalValue * 0.1f;
 
     }
 

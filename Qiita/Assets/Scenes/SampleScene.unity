@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 501512901}
   - component: {fileID: 501512900}
   - component: {fileID: 501512904}
+  - component: {fileID: 501512905}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -238,6 +239,19 @@ MonoBehaviour:
   _camera: {fileID: 963194227}
   _lookController: {fileID: 959212513}
   _angularPerPixel: 0.3
+--- !u!114 &501512905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501512899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ea6f2d93b70491bb7d7454e5f8b456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 963194227}
 --- !u!1001 &543133619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -545,7 +559,7 @@ GameObject:
   - component: {fileID: 887037776}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
